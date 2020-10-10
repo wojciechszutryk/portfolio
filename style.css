@@ -17,27 +17,48 @@
   transform: translateY(-50%);
   bottom: initial;
 }
+
+.welcomesection{
+  background-color: #eeeeee;
+}
 .welcomesection p{
   font-size: 30px;
 }
 
-
-
-
-
-
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
-  }
-@media (max-width: 768px) {
-  
+.about{
+  font-family: 'Dancing Script', cursive;
+  color: #a71d2a;
+  font-size: larger;
 }
-@media (max-width: 576px) {
-  
+
+.swiper-container {
+  width: 500px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
 }
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.education{
+  background-color: #6c757d;
+}
+
+.me{
+  border: 3px solid #721C24;
+}
+
+
+
+
+
+
+
+
 
 
 /*---Firefox Bug Fix --*/
@@ -80,6 +101,24 @@ figure {
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
+}
+
+@media (max-width: 576px) {
+  h2{
+    font-size: 15px !important;
+  }
+  h1{
+    font-size: 30px !important;
+  }
+  .swiper-container{
+    width: 270px !important;
+    height: 250px;
+    margin-left: -115px;
+  }
+
+  .swiper-container img{
+    width: 250px;
+  }
 }
 
 
