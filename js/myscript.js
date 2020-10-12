@@ -1,3 +1,6 @@
+//scrollTo
+
+
 //about type name
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -65,7 +68,6 @@ function move() {
         var now = Date.now() - start;
         var finish = (now/grad)*100;
         var progress = Math.ceil(finish);
-        console.log(Math.ceil(finish));
 
         function frame() {
             if (width >= 100) {
@@ -101,8 +103,11 @@ window.addEventListener('scroll', function(e) {
 
     if (!ticking) {
         window.requestAnimationFrame(function() {
-            if((window.scrollY > 1100)){
+            if((window.scrollY > 1100) && (window.scrollY < 2100)){
                 move()
+            }
+            if ((window.scrollY > 2100)||(window.scrollY < 500)){
+                bar=0;
             }
             ticking = false;
         });

@@ -23,11 +23,28 @@
 		<link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+		<script src="jquery.scrollTo.min.js"></script>
+
+		<script>
+			jQuery(function($)
+					{
+						$('.link1').click(function() { $.scrollTo($('body'), 1000); });
+						$('.link2').click(function() { $.scrollTo($('#about'), 600); });
+						$('.link3').click(function() { $.scrollTo($('#education'), 600); });
+						$('.link4').click(function() { $.scrollTo($('#skills'), 600); });
+						$('.link5').click(function() { $.scrollTo($('#contact'), 600); });
+					}
+			);
+		</script>
 
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top sticky" id="navigation">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#"><span class="h1 logo"><span style="color: #721c24; font-family: 'SansSerif', sans-serif;">IT</span>PORTFOLIO</span></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#RespNavbar">
@@ -36,19 +53,19 @@
 					<div class="collapse navbar-collapse" id="RespNavbar">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="#"><span style="font-family: 'Cabin', sans-serif;">Home</span></a>
+								<a class="nav-link link1" href="#"><span style="font-family: 'Cabin', sans-serif;">Home</span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link ab" href="#">About</a>
+								<a class="nav-link ab link2" href="#">About</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link edu" href="#">Education</a>
+								<a class="nav-link edu link3" href="#">Education</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link skill" href="#">Skills</a>
+								<a class="nav-link skill link4" href="#">Skills</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link con" href="#">Contact</a>
+								<a class="nav-link con link5" href="#">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -88,7 +105,7 @@
 
 		<!--- About -->
 		<article class="welcomesection">
-			<div class="container-fluid pb-5">
+			<div class="container-fluid pb-5" id="about">
 				<div class="row pt-5">
 
 					<div class="text-center col-12">
@@ -111,7 +128,7 @@
 						<img src="img/me_gdansk.jpg" class="me img-thumbnail" alt="me in gdansk">
 					</div>
 
-					<div data-aos="fade-down-left" class="col-6 col-lg-3 order-lg-3">
+					<div data-aos="fade-left" class="col-6 col-lg-3 order-lg-3">
 						<img src="img/me.jpg" class="me img-thumbnail" alt="me zakrzowek">
 					</div>
 
@@ -122,7 +139,7 @@
 		<!--- Education -->
 
 		<section>
-			<div class="container-fluid education">
+			<div class="container-fluid education" id="education">
 				<div class="row text-center">
 
 					<div class="col-12">
@@ -177,6 +194,28 @@
 			</div>
 		</section>
 
+		<section>
+			<div id="courses">
+				<figure>
+					<div class="fixed-wrap">
+						<div id="fixed">
+						</div>
+					</div>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/1.png"></div>
+							<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/2.png"></div>
+							<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/3.png"></div>
+							<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/4.png"></div>
+							<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/5.png"></div>
+							<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/6.png"></div>
+						</div>
+					</div>
+
+				</figure>
+			</div>
+		</section>
+
 		<!--- Jumbotron -->
 
 		<article>
@@ -187,11 +226,12 @@
 
 		<!--- Skills -->
 		<article class="skills">
-			<div class="container-fluid">
+			<div class="container-fluid" id="skills">
 				<div class="row text-center pt-3">
 					<div class="col-sm-6 col-md-4">
 						<i class="fas fa-code"></i>
 						<h3>HTML5</h3>
+						<p>*****</p>
 					</div>
 					<div class="col-sm-6 col-md-4">
 						<i class="fab fa-css3"></i>
@@ -206,7 +246,7 @@
 						<h3>jQuery</h3>
 					</div>
 					<div class="col-sm-6 col-md-4">
-						<i class="fas fa-bold"></i>
+						<i class="fab fa-bootstrap"></i>
 						<h3>Bootstrap</h3>
 					</div>
 					<div class="col-sm-6 col-md-4">
@@ -229,37 +269,69 @@
 						<i class="fab fa-git"></i>
 						<h3>Git/GitHub</h3>
 					</div>
-
-
 				</div>
 			</div>
+
+			<br>
+
+			<div class="container-fluid">
+				<div class="row text-center pt-3">
+					<div class="col-sm-6 col-md-4">
+						<i class="fas fa-globe-americas"></i>
+						<h3>ArcGIS</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="fas fa-bold"></i>
+						<h3>Bentley</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="fab fa-adn"></i>
+						<h3>AutoCAD</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="fab fa-cuttlefish"></i>
+						<h3>Civil 3D</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="fas fa-ruler-combined"></i>
+						<h3>Inventor</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="far fa-map"></i>
+						<h3>EWMAPA</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="fas fa-drafting-compass"></i>
+						<h3>WinKalk</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="fas fa-search-plus"></i>
+						<h3>MikroMap</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="fas fa-atlas"></i>
+						<h3>C-Geo</h3>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<i class="fas fa-pencil-alt"></i>
+						<h3>GIMP</h3>
+					</div>
+				</div>
+			</div>
+
 		</article>
 
 		<hr class="horizonotal">
 
-		<!--- Fixed background -->
-		<figure>
-			<div class="fixed-wrap">
-				<div id="fixed">
-
-				</div>
-			</div>
-		</figure>
-
-		<!--- Emoji Section -->
-		<button class="courses_open" data-toggle="collapse" data-target="#courses">Courses</button>
-		<div id="courses" class="collapse">
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/1.jpg"></div>
-					<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/2.jpg"></div>
-					<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/3.jpg"></div>
-					<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/4.jpg"></div>
-					<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/5.jpg"></div>
-					<div class="swiper-slide"><img class="img-fluid" src="./img/certificates/6.jpg"></div>
-				</div>
-			</div>
-		</div>
 
 
 		<!--- Meet the team -->
@@ -271,12 +343,41 @@
 		<!--- Two Column Section -->
 
 
-		<!--- Connect -->
-
+		<!--- Contact -->
+		<div class="container-fluid" id="contact">
+			<div class="row text-center">
+				<div class="col-12">
+					<h1 class="display-4 con">Contact</h1>
+				</div>
+				<div class="col-12 socilmedia">
+					<a href="https://www.facebook.com/wojciech.szutryk" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://www.instagram.com/wita184/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://github.com/wojciechszutryk" target="_blank"><i class="fab fa-github-square"></i></a>
+					<a href="https://twitter.com/wita184" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://pl.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<div class="col-6">
+					<i class="fas fa-mobile-alt"></i>
+					<p>+48 692045895</p>
+				</div>
+				<div class="col-6">
+					<i class="fas fa-at"></i>
+					<p>wojtekszutryk@gmail.com</p>
+				</div>
+			</div>
+		</div>
 
 		<!--- Footer -->
+		<footer>
+			<div class="foot bg-dark text-center p-3">
+				<h3 class="mb-0 text-white">
+					2020 <span style="color: #cc231b">&copy</span> Designed by <span style="font-family: 'Dancing Script', cursive;">Wojciech Szutryk</span>
+				</h3>
+			</div>
+		</footer>
 
 
+		<!--- Scripts -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -286,13 +387,19 @@
 		<script src="js/myscript.js"></script>
 		<script>
 			var swiper = new Swiper('.swiper-container', {
-				direction: 'vertical',
-				slidesPerView: 1,
-				spaceBetween: 30,
-				mousewheel: true,
+				effect: 'coverflow',
+				grabCursor: true,
+				centeredSlides: true,
+				slidesPerView: 'auto',
+				coverflowEffect: {
+					rotate: 50,
+					stretch: 50,
+					depth: 100,
+					modifier: 1,
+					slideShadows: false,
+				},
 				pagination: {
 					el: '.swiper-pagination',
-					clickable: true,
 				},
 				autoplay: {
 					delay: 2500,

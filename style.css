@@ -1,13 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+html, body{
+  width: 100%;
+  height: 100%;
+  color: #332222;
+}
+
 .logo{
   font-family: 'Bebas Neue', cursive;
   font-weight: 900;
   letter-spacing: 4px;
 }
 
+.nav-item{
+  height: 40px;
+}
+
 .nav-link:hover{
+  font-size: 20px;
+  transition: 0.2s;
   color: #960c19 !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#slider{
+  margin-top: 76.4px;
 }
 
 .item{
@@ -16,8 +38,21 @@
   transform-style: preserve-3d;
 }
 
+.welcomesection hr{
+  width: 90%;
+  border: 1px solid #a71d2a;
+}
+
 .ab{
   font-family: 'Dancing Script', cursive;
+}
+
+.education{
+  margin-bottom: 30px;
+}
+
+.fa-school, .fa-university, .fa-graduation-cap{
+  font-size: 29px !important;
 }
 
 .edu{
@@ -42,6 +77,92 @@
 .skill{
   font-family: 'VT323', monospace;
 }
+
+.fa, .fas, .fab, .far{
+  font-size: 64px;
+  margin: 1rem;
+}
+
+.fa-code{
+  color: #F16529;
+}
+
+.fa-css3{
+  color: #66D3FA;
+}
+
+.fa-js{
+  color: #F0DB4F;
+}
+
+.fa-dollar-sign{
+  color: #0868AC;
+}
+
+.fa-bold{
+  color: #553C7B;
+}
+
+.fa-python{
+  color: #FFD300;
+}
+
+.fa-file-code{
+  color: #606060;
+}
+
+.fa-terminal{
+  color: #808080;
+}
+
+.fa-coffee{
+  color: #CC3534;
+}
+
+.fa-git{
+  color: #F1502F;
+}
+
+.fa-globe-americas{
+  color: #006633;
+}
+
+.fa-bold{
+  color: #8DB407;
+}
+
+.fa-atlas{
+  color: #1B8E38;
+}
+
+.fa-adn{
+  color: #F0372F;
+}
+
+.fa-pencil-alt{
+  color: #5A4A34;
+}
+
+.fa-cuttlefish{
+  color: #3D7FD7;
+}
+
+.fa-ruler-combined{
+  color: #F5961F;
+}
+
+.far fa-map{
+  color: #F8F4EC;
+}
+
+.fas fa-drafting-compass{
+  color: #FFEB01;
+}
+
+.fa-search-plus{
+  color: #502958;
+}
+
 
 .con{
   font-family: 'Anton', sans-serif;
@@ -85,16 +206,16 @@
 }
 
 .swiper-container {
-  width: 500px;
-  height: 400px;
-  left: 50%;
-  top: 50%;
-  margin-left: -250px;
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 10px;
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
+  width: 300px;
+  height: 300px;
 }
 
 .skills{
@@ -105,6 +226,35 @@
   border: 3px solid #721C24;
 }
 
+.socilmedia a{
+  font-size: 40px;
+  padding: 3rem;
+}
+
+.fa-facebook{
+  color: #3C5898;
+}
+
+.fa-instagram{
+  color: #517fa4;
+}
+
+.fa-github-square{
+  color: #211F1F;
+}
+
+.fa-twitter{
+  color: #36D8FF;
+}
+
+.fa-linkedin-in{
+  color: #006192;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-github-square:hover, .fa-twitter:hover, .fa-linkedin-in:hover{
+  color: #a71d2a;
+  transition: 1s;
+}
 
 
 
@@ -114,7 +264,8 @@
 
 
 
-/*---Firefox Bug Fix --*/
+
+
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -122,7 +273,7 @@
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-/*--- Fixed Background Image --*/
+
 figure {
   position: relative;
   width: 100%;
@@ -151,22 +302,12 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
-/*--- Bootstrap Padding Fix --*/
+
 [class*="col-"] {
     padding: 1rem;
 }
 
 @media (max-width: 576px) {
-  .swiper-container{
-    width: 270px !important;
-    height: 250px;
-    margin-left: -115px;
-  }
-
-  .swiper-container img{
-    width: 250px;
-  }
-
   .name h1{
     font-size: 30px !important;
   }
@@ -174,10 +315,21 @@ figure {
   .typewrite{
     font-size: 30px;
   }
+  .welcomesection h1{
+    font-size: 25px !important;
+  }
+  .socilmedia a{
+    font-size: 0.5em !important;
+    padding: 0.5em;
+  }
 }
 
 
-
+.foot{
+  font-family: sans-serif;
+  font-weight: 900;
+  color: #d5d5d5;
+}
 
 
 
@@ -186,12 +338,21 @@ figure {
   .name h1{
     font-size: 60px !important;
   }
+  .socilmedia a{
+    font-size: 2.5em;
+    padding: 1.2em;
+  }
 }
 
 
 @media (min-width: 768px) {
   .name h1{
     font-size: 80px !important;
+  }
+
+  .socilmedia a{
+    font-size: 2em;
+    padding: 1em;
   }
 }
 
@@ -202,6 +363,10 @@ figure {
   }
   .name h1{
     font-size: 100px !important;
+  }
+  .socilmedia a{
+    font-size: 2.5em;
+    padding: 1.2em;
   }
 }
 

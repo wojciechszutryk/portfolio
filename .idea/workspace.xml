@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="">
+    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="added education and about section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/myscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myscript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -46,18 +60,44 @@
       <workItem from="1602327658473" duration="5338000" />
       <workItem from="1602336169262" duration="27887000" />
       <workItem from="1602400690376" duration="8101000" />
-      <workItem from="1602410213337" duration="18395000" />
+      <workItem from="1602410213337" duration="18425000" />
+      <workItem from="1602439328202" duration="8774000" />
+      <workItem from="1602485349491" duration="12650000" />
     </task>
+    <task id="LOCAL-00001" summary="added education and about section">
+      <created>1602432580351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602432580351</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added education and about section" />
+    <option name="LAST_COMMIT_MESSAGE" value="added education and about section" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="91" key="#Inspections" timestamp="1602328589286">
+    <state x="395" y="91" key="#Inspections" timestamp="1602499105213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="91" key="#Inspections/1920.0.1440.850/0.0.1536.824/3360.0.1920.1040@0.0.1536.824" timestamp="1602328589286" />
+    <state x="395" y="91" key="#Inspections/1920.0.1440.850/0.0.1536.824/3360.0.1920.1040@0.0.1536.824" timestamp="1602499105213" />
     <state x="643" y="310" key="Github.ShareDialog" timestamp="1602346345483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
