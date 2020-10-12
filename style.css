@@ -5,6 +5,14 @@ html, body{
   height: 100%;
   color: #332222;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 .logo{
   font-family: 'Bebas Neue', cursive;
@@ -20,6 +28,18 @@ html, body{
   font-size: 20px;
   transition: 0.2s;
   color: #960c19 !important;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #721c24;
+  width: 0%;
 }
 
 .sticky {
@@ -218,8 +238,12 @@ html, body{
   height: 300px;
 }
 
+.jumbotron{
+  font-family: 'Lora', serif;
+}
+
 .skills{
-  background-color: #6c757d;
+  background-color: #5b4141;
 }
 
 .me{
@@ -255,6 +279,7 @@ html, body{
   color: #a71d2a;
   transition: 1s;
 }
+
 
 
 
@@ -318,10 +343,22 @@ figure {
   .welcomesection h1{
     font-size: 25px !important;
   }
+
   .socilmedia a{
-    font-size: 0.5em !important;
-    padding: 0.5em;
+    padding: 0;
   }
+
+  .fa-facebook, .fa-instagram, .fa-github-square, .fa-twitter, .fa-linkedin-in{
+    font-size: 1em !important;
+    margin: 0.2em;
+    padding: 0;
+  }
+
+  .fa-at, .fa-mobile-alt{
+    font-size: 2em !important;
+    padding: 0;
+  }
+
 }
 
 
@@ -342,6 +379,20 @@ figure {
     font-size: 2.5em;
     padding: 1.2em;
   }
+
+  .socilmedia a{
+    padding: 0.15em;
+  }
+
+  .fa-facebook, .fa-instagram, .fa-github-square, .fa-twitter, .fa-linkedin-in{
+    font-size: 1.5em !important;
+    padding: 0;
+  }
+
+  .fa-at, .fa-mobile-alt{
+    font-size: 3em !important;
+    padding: 0;
+  }
 }
 
 
@@ -351,9 +402,14 @@ figure {
   }
 
   .socilmedia a{
-    font-size: 2em;
-    padding: 1em;
+    padding: 0.4em;
   }
+
+  .fa-facebook, .fa-instagram, .fa-github-square, .fa-twitter, .fa-linkedin-in{
+    font-size: 1.2em !important;
+    padding: 0;
+  }
+
 }
 
 
@@ -361,12 +417,13 @@ figure {
   img{
     max-height: 650px;
   }
+
   .name h1{
     font-size: 100px !important;
   }
+
   .socilmedia a{
-    font-size: 2.5em;
-    padding: 1.2em;
+    padding: 0.2em;
   }
 }
 
@@ -374,6 +431,16 @@ figure {
 @media (min-width: 1200px) {
   .name h1{
     font-size: 150px;
+  }
+
+  .fa-facebook, .fa-instagram, .fa-github-square, .fa-twitter, .fa-linkedin-in{
+    font-size: 1.7em !important;
+    padding: .1em;
+  }
+
+  .fa-at, .fa-mobile-alt{
+    font-size: 3.5em !important;
+    padding: 0;
   }
 }
 
