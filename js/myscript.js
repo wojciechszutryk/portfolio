@@ -123,6 +123,8 @@ window.addEventListener('scroll', function(e) {
     }
 });
 
+
+//onload
 window.onload = function() {
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
@@ -142,3 +144,25 @@ window.onload = function() {
         $(".me").addClass("rounded-circle");
     }
 };
+
+
+//skills
+const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+const container = document.querySelector('.container-custom');
+
+left.addEventListener('mouseenter', () => {
+    container.classList.add('hover-left');
+});
+
+left.addEventListener('mouseleave', () => {
+    container.classList.remove('hover-left');
+});
+
+right.addEventListener('mouseenter', () => {
+    container.classList.add('hover-right');
+});
+
+right.addEventListener('mouseleave', () => {
+    container.classList.remove('hover-right');
+});

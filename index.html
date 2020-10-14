@@ -36,7 +36,7 @@
 						$('.link1').click(function() { $.scrollTo($('body'), 1000); });
 						$('.link2').click(function() { $.scrollTo($('#about'), 600); });
 						$('.link3').click(function() { $.scrollTo($('#education'), 600); });
-						$('.link4').click(function() { $.scrollTo($('#skills'), 600); });
+						$('.link4').click(function() { $.scrollTo($('.skills'), 600); });
 						$('.link5').click(function() { $.scrollTo($('#contact'), 600); });
 					}
 			);
@@ -124,6 +124,7 @@
 
 						<p>My name is Wojtek.</p>
 						<p>I'm 22 yo. I was born in Dębica, but 4 years argo I moved to Cracow for study.</p>
+						<p>I study Computer Science and surveying in Cracow and learn programming on my own. I wrote the first line of code in C++ 2 years ago. After a few months, I was interested in the web development. Thus, I started to watch tutorials online in that field. I have tried developing my skills every day. This way I have learnt React, Bootstrap and Sass. I'm looking for a position as the front end developer in order to deepen my knowledge and gain experience by working with professional and experienced programmers who got to work with large projects.</p>
 					</div>
 
 					<div data-aos="fade-right"
@@ -231,103 +232,225 @@
 
 		<!--- Skills -->
 		<article class="skills">
-			<h1 class="display-4 skill">Skills</h1>
-			<div class="container-fluid" id="skills">
+			<h1 class="display-4 skill text-center">Skills</h1>
+			<div class="container-custom">
+				<div class="split left">
+					<div class="container-fluid">
+						<div class="row text-center pt-3">
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-code"></i>
+								<h3>HTML5</h3>
+								<p>*****</p>
+							</div>
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fab fa-css3"></i>
+								<h3>CSS3</h3>
+							</div>
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fab fa-js"></i>
+								<h3>JavaScript</h3>
+							</div>
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-dollar-sign"></i>
+								<h3>jQuery</h3>
+							</div>
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fab fa-bootstrap"></i>
+								<h3>Bootstrap</h3>
+							</div>
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fab fa-python"></i>
+								<h3>Python</h3>
+							</div>
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-file-code"></i>
+								<h3>C++</h3>
+							</div>
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-terminal"></i>
+								<h3>C</h3>
+							</div>
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-coffee"></i>
+								<h3>Java</h3>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="split right">
+					<div class="container-fluid">
+						<div class="row text-center pt-3">
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-globe-americas"></i>
+								<h3>ArcGIS</h3>
+							</div>
+
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-bold"></i>
+								<h3>MicroStation</h3>
+							</div>
+
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fab fa-adn"></i>
+								<h3>AutoCAD</h3>
+							</div>
+
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fab fa-cuttlefish"></i>
+								<h3>Civil 3D</h3>
+							</div>
+
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-ruler-combined"></i>
+								<h3>Inventor</h3>
+							</div>
+
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="far fa-map"></i>
+								<h3>EWMAPA</h3>
+							</div>
+
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-drafting-compass"></i>
+								<h3>WinKalk</h3>
+							</div>
+
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-search-plus"></i>
+								<h3>MikroMap</h3>
+							</div>
+
+							<div class="col-sm-6 col-md-4 one_skill">
+								<i class="fas fa-atlas"></i>
+								<h3>C-Geo</h3>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+			<div class="btn-group btn-group-toggle d-flex justify-content-center" data-toggle="buttons">
+				<label class="btn btn-secondary">
+					<button type="radio" name="options" id="option1" autocomplete="off" data-toggle="collapse" data-target="#it"> IT SKILLS </button>
+				</label>
+				<label class="btn btn-secondary">
+					<button type="radio" name="options" id="option2" autocomplete="off" data-toggle="collapse" data-target="#geo"> SURVEYING SKILLS</button>
+				</label>
+				<label class="btn btn-secondary">
+					<button type="radio" name="options" id="option3" autocomplete="off" data-toggle="collapse" data-target="#oth"> OTHER SKILLS</button>
+				</label>
+			</div>
+			<div class="container-fluid it collapse" id="it">
 				<div class="row text-center pt-3">
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-code"></i>
 						<h3>HTML5</h3>
 						<p>*****</p>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fab fa-css3"></i>
 						<h3>CSS3</h3>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fab fa-js"></i>
 						<h3>JavaScript</h3>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-dollar-sign"></i>
 						<h3>jQuery</h3>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fab fa-bootstrap"></i>
 						<h3>Bootstrap</h3>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fab fa-python"></i>
 						<h3>Python</h3>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-file-code"></i>
 						<h3>C++</h3>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-terminal"></i>
 						<h3>C</h3>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-coffee"></i>
 						<h3>Java</h3>
 					</div>
-					<div class="col-sm-6 col-md-4 offset-md-4">
-						<i class="fab fa-git"></i>
-						<h3>Git/GitHub</h3>
-					</div>
+
 				</div>
 			</div>
 
 			<br>
 
-			<div class="container-fluid">
+			<div class="container-fluid geo collapse" id="geo">
 				<div class="row text-center pt-3">
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-globe-americas"></i>
 						<h3>ArcGIS</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-bold"></i>
-						<h3>Bentley</h3>
+						<h3>MicroStation</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fab fa-adn"></i>
 						<h3>AutoCAD</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fab fa-cuttlefish"></i>
 						<h3>Civil 3D</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-ruler-combined"></i>
 						<h3>Inventor</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="far fa-map"></i>
 						<h3>EWMAPA</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-drafting-compass"></i>
 						<h3>WinKalk</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-search-plus"></i>
 						<h3>MikroMap</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-6 col-md-4 one_skill">
 						<i class="fas fa-atlas"></i>
 						<h3>C-Geo</h3>
 					</div>
 
-					<div class="col-sm-6 col-md-4">
+				</div>
+			</div>
+
+			<div class="container-fluid others collapse" id="oth">
+				<div class="row text-center pt-3">
+					<div class="col-4 one_skill">
+						<i class="fab fa-git"></i>
+						<h3>Git/GitHub</h3>
+					</div>
+
+					<div class="col-4 one_skill">
+						<i class="fas fa-language"></i>
+						<h3>English-B2 German-B1 </h3>
+					</div>
+
+					<div class="col-4 one_skill">
 						<i class="fas fa-pencil-alt"></i>
 						<h3>GIMP</h3>
 					</div>
@@ -339,7 +462,7 @@
 		<hr class="horizonotal">
 
 
-
+		-->
 		<!--- Meet the team -->
 
 

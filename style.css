@@ -100,9 +100,15 @@ body {
 
 .fa, .fas, .fab, .far{
   font-size: 64px;
-  margin: 1rem;
+  margin: 0;
+  color: white;
 }
 
+.others .collapse{
+  transition: .3s transform ease-in-out;
+}
+
+/*
 .fa-code{
   color: #F16529;
 }
@@ -182,6 +188,7 @@ body {
 .fa-search-plus{
   color: #502958;
 }
+*/
 
 
 .con{
@@ -216,7 +223,7 @@ body {
   background-color: #eeeeee;
 }
 .welcomesection p{
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .about{
@@ -240,10 +247,16 @@ body {
 
 .jumbotron{
   font-family: 'Lora', serif;
+  margin-bottom: 0;
 }
 
 .skills{
   background-color: #5b4141;
+  background-color: white;
+}
+
+.skills h1{
+  padding: 1em;
 }
 
 .me{
@@ -445,6 +458,94 @@ figure {
 }
 
 
+
+
+
+
+.container-custom h1 {
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  white-space: nowrap;
+  letter-spacing: 3px;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden; }
+.split.left {
+  left: 0;
+  background: url("https://images.pexels.com/photos/1405773/pexels-photo-1405773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+.split.left:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(63, 81, 181, 0.7); }
+.split.right {
+  right: 0;
+  background: url("https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+.split.right:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(43, 43, 43, 0.8); }
+.split.left, .split.left:before, .split.right, .split.right:before {
+  -webkit-transition: 1000ms all ease-in-out;
+  -o-transition: 1000ms all ease-in-out;
+  transition: 1000ms all ease-in-out; }
+
+.container-custom {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #333; }
+
+.hover-left .left {
+  width: 75%; }
+
+.hover-left .right {
+  width: 25%; }
+.hover-left .right:before {
+  z-index: 2; }
+
+.hover-right .right {
+  width: 75%; }
+
+.hover-right .left {
+  width: 25%; }
+.hover-right .left:before {
+  z-index: 2; }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem; }
+  .btn {
+    width: 12rem; } }
+
+@media (max-height: 780px) {
+  .btn {
+    top: 60%; } }
 
 
 

@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="added scrollTo, font awesome to skills">
+    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="jumbotron stylized, change in socials grid, scroll bar top added, scrollbar hidden">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/myscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myscript.js" afterDir="false" />
@@ -63,7 +63,13 @@
       <workItem from="1602410213337" duration="18425000" />
       <workItem from="1602439328202" duration="8774000" />
       <workItem from="1602485349491" duration="12795000" />
-      <workItem from="1602531741038" duration="4982000" />
+      <workItem from="1602531741038" duration="5225000" />
+      <workItem from="1602585128255" duration="1947000" />
+      <workItem from="1602591262835" duration="1288000" />
+      <workItem from="1602596133805" duration="23000" />
+      <workItem from="1602667246691" duration="2140000" />
+      <workItem from="1602670543031" duration="45000" />
+      <workItem from="1602670842469" duration="6734000" />
     </task>
     <task id="LOCAL-00001" summary="added education and about section">
       <created>1602432580351</created>
@@ -79,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602499958070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jumbotron stylized, change in socials grid, scroll bar top added, scrollbar hidden">
+      <created>1602536967564</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602536967564</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +113,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added education and about section" />
     <MESSAGE value="added scrollTo, font awesome to skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="added scrollTo, font awesome to skills" />
+    <MESSAGE value="jumbotron stylized, change in socials grid, scroll bar top added, scrollbar hidden" />
+    <option name="LAST_COMMIT_MESSAGE" value="jumbotron stylized, change in socials grid, scroll bar top added, scrollbar hidden" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1602499105213">
