@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+
 
 html, body{
   width: 100%;
@@ -343,27 +355,14 @@ figure {
   height: 300px;
 }
 
-
-
-
-
 .jumbotron{
   font-family: 'Lora', serif;
   margin-bottom: 0;
 }
 
-
-
-
-
-
-.skills{
-  background-color: #5b4141;
-  background-color: white;
-}
-
 .skills h1{
   padding: 1em;
+  transition: 1s;
 }
 
 .container-custom {
@@ -423,6 +422,12 @@ figure {
   width: 25%;
 }
 
+.hover-left .right h1{
+  font-size: 0px;
+  margin-bottom: 56px;
+  transition: 1s;
+}
+
 .hover-left .right:before {
   z-index: 2;
 }
@@ -435,20 +440,14 @@ figure {
   width: 25%;
 }
 
+.hover-right .left h1{
+  font-size: 0px;
+  margin-bottom: 56px;
+  transition: 1s;
+}
+
 .hover-right .left:before {
   z-index: 2;
-}
-
-@media (max-width: 800px) {
-  h1 {
-    font-size: 2rem; }
-  .btn {
-    width: 12rem; }
-}
-
-@media (max-height: 780px) {
-  .btn {
-    top: 60%; }
 }
 
 
@@ -515,6 +514,21 @@ color: #006192;
     font-size: 25px !important;
   }
 
+  .welcomesection p{
+    font-size: 15px;
+  }
+
+  .education h1{
+    font-size: 2.5rem!important;
+  }
+
+  .education h3{
+    font-size: 1.2rem!important;
+  }
+
+  .jumbotron h2{
+    font-size: 1.5rem;
+  }
     .socilmedia a{
     padding: 0;
   }
@@ -529,6 +543,47 @@ color: #006192;
     padding: 0;
   }
 
+  .hover-left .right h1{
+    font-size: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .hover-right .left h1{
+    font-size: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .split h1{
+    font-size: 0rem;
+    margin: 0;
+  }
+
+  .container-custom {
+    height: 750px;
+  }
+
+  .one_skill h3{
+    font-size: 1em !important;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+
+  .one_skill p{
+    font-size: 1em !important;
+    margin-bottom: 0;
+  }
+
+  .fa, .fas, .fab, .far{
+    font-size: 40px;
+  }
+
+  #contact h1{
+    font-size: 2.5rem;
+  }
+
+  .foot h3{
+    font-size: 1.2rem;
+  }
 }
 
 
@@ -554,22 +609,58 @@ color: #006192;
   font-size: 3em !important;
   padding: 0;
 }
+  .split h1{
+    font-size: 2rem;
+  }
+
+  .container-custom {
+    height: 600px;
+  }
+
+  .one_skill h3{
+    font-size: 1em !important;
+  }
+
+  .one_skill p{
+    font-size: 1.5em !important;
+    margin-bottom: 0;
+  }
+
+  .fa, .fas, .fab, .far{
+    font-size: 40px !important;
+  }
 }
 
 
 @media (min-width: 768px) {
-  .name h1{
-  font-size: 80px !important;
-}
+    .name h1{
+    font-size: 80px !important;
+  }
 
-  .socilmedia a{
-  padding: 0.4em;
-}
+    .socilmedia a{
+    padding: 0.4em;
+  }
 
-  .fa-facebook, .fa-instagram, .fa-github-square, .fa-twitter, .fa-linkedin-in{
-  font-size: 1.2em !important;
-  padding: 0;
-}
+    .fa-facebook, .fa-instagram, .fa-github-square, .fa-twitter, .fa-linkedin-in{
+    font-size: 1.2em !important;
+    padding: 0;
+  }
+
+  .container-custom {
+    height: 550px;
+  }
+
+  .one_skill h3{
+    font-size: 1.5em !important;
+  }
+
+  .one_skill p{
+    font-size: 2em !important;
+  }
+
+  .fa, .fas, .fab, .far{
+    font-size: 64px !important;
+  }
 
 }
 
