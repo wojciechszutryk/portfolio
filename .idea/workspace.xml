@@ -19,18 +19,42 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="buttons added to skills">
+    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="mail added to contact, skills updated, added slider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap 4 Site Files/.idea/Bootstrap 4 Site Files.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap 4 Site Files/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap 4 Site Files/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/myscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myscript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/O-X/audio/bad.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/O-X/audio/good.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/O-X/o-x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/O-X/o-x.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/O-X/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/audio/bad.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/audio/good.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/hangman.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/hangman.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/0a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/10a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/1a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/2a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/3a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/4a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/6a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/7a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/img/New folder/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/games/hangman/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/stylesheets/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blog/stylesheets/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/blog/stylesheets/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blog/stylesheets/mystyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +122,8 @@
       <workItem from="1603267761263" duration="2841000" />
       <workItem from="1603270620652" duration="2407000" />
       <workItem from="1603287204861" duration="13444000" />
-      <workItem from="1603352697857" duration="24452000" />
+      <workItem from="1603352697857" duration="24814000" />
+      <workItem from="1603391041329" duration="3850000" />
     </task>
     <task id="LOCAL-00001" summary="added education and about section">
       <created>1602432580351</created>
@@ -135,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602929870347</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mail added to contact, skills updated, added slider">
+      <created>1603390778070</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603390778071</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +192,8 @@
     <MESSAGE value="added split to skills" />
     <MESSAGE value="changed display layout at small screens, cleaned html, js  code" />
     <MESSAGE value="buttons added to skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="buttons added to skills" />
+    <MESSAGE value="mail added to contact, skills updated, added slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="mail added to contact, skills updated, added slider" />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="67" key="#CLI_Interpreters" timestamp="1603287858841">
