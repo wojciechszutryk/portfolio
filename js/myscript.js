@@ -1,5 +1,6 @@
 AOS.init();
 
+//swiper
 var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
     grabCursor: true,
@@ -147,6 +148,52 @@ window.addEventListener('scroll', function(e) {
 });
 
 
+
+//skills button
+function  prepareflip(number){
+    for (i=1; i<5; i++){
+        if (i==number) continue;
+        $("#panel"+i).slideUp("slow");
+    }
+    document.getElementById("a1").style.backgroundColor = "white";
+    document.getElementById("a2").style.backgroundColor = "white";
+    document.getElementById("a3").style.backgroundColor = "white";
+    document.getElementById("a4").style.backgroundColor = "white";
+    document.getElementById("a1").style.color = "#111";
+    document.getElementById("a2").style.color = "#111";
+    document.getElementById("a3").style.color = "#111";
+    document.getElementById("a4").style.color = "#111";
+}
+
+$(document).ready(function(){
+    $("#flip1").click(function(){
+        prepareflip(1);
+        $("#panel1").slideToggle("slow");
+        document.getElementById("a1").style.backgroundColor = "#929292";
+        document.getElementById("a1").style.color = "#fff";
+    });
+    $("#flip2").click(function(){
+        prepareflip(2);
+        $("#panel2").slideToggle("slow");
+        document.getElementById("a2").style.backgroundColor = "#9d5e62";
+        document.getElementById("a2").style.color = "#fff";
+    });
+    $("#flip3").click(function(){
+        prepareflip(3);
+        $("#panel3").slideToggle("slow");
+        document.getElementById("a3").style.backgroundColor = "#6b050e";
+        document.getElementById("a3").style.color = "#fff";
+    });
+    $("#flip4").click(function(){
+        prepareflip(4);
+        $("#panel4").slideToggle("slow");
+        document.getElementById("a4").style.backgroundColor = "#c36969";
+        document.getElementById("a4").style.color = "#fff";
+    });
+});
+
+
+
 //onload
 window.onload = function() {
     var elements = document.getElementsByClassName('typewrite');
@@ -188,4 +235,92 @@ right.addEventListener('mouseenter', () => {
 
 right.addEventListener('mouseleave', () => {
     container.classList.remove('hover-right');
+});
+
+//send button
+const button   = document.querySelector('.submit-button'),
+    stateMsg = document.querySelector('.pre-state-msg');
+
+const updateButtonMsg = function() {
+    button.classList.add('state-1', 'animated');
+
+    setTimeout(finalButtonMsg, 2000);
+};
+
+const finalButtonMsg = function() {
+    button.classList.add('state-2');
+
+    setTimeout(setInitialButtonState, 2000);
+};
+
+const setInitialButtonState = function() {
+    button.classList.remove('state-1', 'state-2', 'animated');
+};
+
+button.addEventListener('click', updateButtonMsg);
+
+
+
+//mail send
+function validateForm() {
+    var name =  document.getElementById('name').value;
+    if (name == "") {
+        document.querySelector('.current-state-msg').innerHTML = "Name cannot be empty";
+        document.querySelector('.status').innerHTML = "Name cannot be empty";
+        return false;
+    }
+    var email =  document.getElementById('email').value;
+    if (email == "") {
+        document.querySelector('.current-state-msg').innerHTML = "Email cannot be empty";
+        document.querySelector('.status').innerHTML = "Email cannot be empty";
+        return false;
+    } else {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if(!re.test(email)){
+            document.querySelector('.current-state-msg').innerHTML = "Email format invalid";
+            document.querySelector('.status').innerHTML = "Email format invalid";
+            return false;
+        }
+    }
+    var subject =  document.getElementById('subject').value;
+    if (subject == "") {
+        document.querySelector('.current-state-msg').innerHTML = "Subject cannot be empty";
+        document.querySelector('.status').innerHTML = "Subject cannot be empty";
+        return false;
+    }
+    var message =  document.getElementById('message').value;
+    if (message == "") {
+        document.querySelector('.current-state-msg').innerHTML = "Message cannot be empty";
+        document.querySelector('.status').innerHTML = "Message cannot be empty";
+        return false;
+    }
+    document.querySelector('.current-state-msg').innerHTML = "Sending...";
+    document.querySelector('.status').innerHTML = "Sending...";
+}
+
+
+document.getElementById('status').innerHTML = "Sending...";
+formData = {
+    'name'     : $('input[name=name]').val(),
+    'email'    : $('input[name=email]').val(),
+    'subject'  : $('input[name=subject]').val(),
+    'message'  : $('textarea[name=message]').val()
+};
+
+
+$.ajax({
+    url : "mail.php",
+    type: "POST",
+    data : formData,
+    success: function(data, textStatus, jqXHR)
+    {
+
+        $('#status').text(data.message);
+        if (data.code) //If mail was sent successfully, reset the form.
+            $('#contact-form').closest('form').find("input[type=text], textarea").val("");
+    },
+    error: function (jqXHR, textStatus, errorThrown)
+    {
+        $('#status').text(jqXHR);
+    }
 });
