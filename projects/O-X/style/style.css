@@ -1,0 +1,295 @@
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+body, html {
+  height: 100%;
+  padding 0;
+  margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    margin: 0;
+    height: 100%;
+    cursor: none !important;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#game_rules{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: 3px solid #fff;
+    color: black;
+    float: right;
+    margin: 5px;
+    position: fixed;
+    right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#rules_description{
+    position: fixed;
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+    top: 43px;
+    right: 12px;
+    margin: 5px;
+    z-index: 100;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #000;
+    display: none;
+    border: solid grey 5px;
+    border: solid grey 5px;
+}
+
+#content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+#rules{
+    display: block;
+    padding: 10px 0 10px 0;
+    border: 1px solid grey;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+#display{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+.player_colour{
+    float: left;
+    padding: 10px;
+    margin: 10px 26px;
+    width: 400px;
+}
+
+.random_colour{
+    background-color: white;
+    padding: 10px;
+    width: 54px;
+    height: 54px;
+    margin: 10px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10%;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    transition: 0.7s;
+}
+.random_colour:hover{
+    cursor: pointer;
+    border: 3px solid #333;
+}
+.colour_text{
+    background-color: rgb(	51, 51, 51,0.5);
+    color: white;
+    border: 1px solid grey;
+    text-align: center;
+    width: 178px;
+    height: 78px;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+}
+
+label{
+    font-size: 15px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+label:hover{
+    background-color: rgb(	100, 100, 100,0.5);
+    font-size: 20px;
+}
+:checked + span {
+    color: red;
+}
+#labels{
+    float: left;
+    width: 472px;
+    margin-right: 37px;
+}
+
+#button{
+    float: left;
+    width: 400px;
+    height: 50px;
+    border: 1px solid grey;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    display: block;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+#button:hover{
+    background-color: rgb(	100, 100, 100,0.5);
+    cursor: pointer;
+}
+#author{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+#upper{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+
+#logo{
+    float: left;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    transition: background 1s;
+}
+
+.score{
+    float: left;
+    width: 40px;
+    height: 40px;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.span_logo{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-transform: uppercase;
+}
+
+.label{
+    height: 50px;
+    width: 294px;
+    border: 3px solid white;
+    margin-bottom: 10px;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    padding-top: 10px;
+    border-radius: 5%;
+}
+
+#previous_label{
+    background-color: red;
+}
+
+#game_label{
+    background-color: green;
+}
+
+#next_label{
+    background-color: blue;
+}
+
+#previous_board{
+    margin-right: 25px;
+}
+#game_board{
+    margin-right: 25px;
+}
+
+.box{
+    width: 76px;
+    height: 76px;
+    border: 2px solid #fff;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 60px;
+    font-weight: 900;
+    transition: 1s;
+}
+
+.box:hover{
+    background-color: rgb(	151, 151, 151,0.5);
+}
+
+.redbox{
+    width: 76px;
+    height: 76px;
+    background-color: #d1271b;
+    border: 2px solid #f00;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+.redbox:hover{
+    background-color: #911b13;
+    border: 2px solid #f00;
+}
+
+.win{
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: -5px 5px 0 #000,
+                  5px 5px 0 #000,
+                 5px -5px 0 #000,
+                -5px -5px 0 #000;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    box-shadow: inset 0 0 5px grey; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red; 
+}
+

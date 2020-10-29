@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>O-X</title>
+
+	<link rel="stylesheet" href="./style/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
+    <script>
+		$(function() {
+            $('#game_rules').hover(function() {
+                $('#rules_description').css('display', 'block');
+            }, function() {
+                $('#rules_description').css('display', 'none');
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div id = "game_rules">RULES</div>
+    <div id = "rules_description">RULES <br><br>Rules are same as in classic TicTacToe. The game goes on "GAME" board. Players choose, where to put their marks. When one of the players clicks the red sqare, his mark will stay on board at the bagginig of next round. The goal is to have three marks next to each other. When one wins, "GAME" board is beeing replaced with "NEXT BOARD". Player, that wins two times, win the whole game. <br><br>Have fun!<br>Wojciech Szutryk </div>
+    
+        <div id="content">
+            <div id="upper">
+                <div id="P1score" class="score"></div>
+                <div id="logo"><span style="text-transform: uppercase; background-color: white; color: black; font-size: 70px; width: 500px; height: 40px;">O-X</span></div>
+                <div id="P2score" class="score"></div>
+                <div style="clear: both"></div>
+            </div>
+        
+            <div id="display">
+                <span id="rules">Choose players colors and press start</span>
+                <div class="player_colour" id="player1_colour">aaa</div>
+                <div class="player_colour" id="player2_colour"></div>
+                <div style="clear: both"></div>
+                
+                <div id="labels">
+                    <div>
+                        <label>
+                        <input type="radio" id="vs_computer" name="vs" checked><span>Vs Computer Player</span>
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>
+                        <input type="radio" id="vs_player" name="vs"><span>Vs Second Player</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <button type="button" id="button">Start</button>
+                <div style="clear: both"></div>
+                <div id="author">Game by &copy Wojciech Szutryk</div>
+            </div>
+            <div id="letters"></div>
+        </div>
+    <script src="o-x.js"></script>
+</body>
+</html>

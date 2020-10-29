@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Hangman</title>
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+	<script src="hangman.js"></script>
+
+</head>
+<body>
+    <div id="content">
+        <div id="password"><span style="text-transform: uppercase; background-color: white; color: black; font-size: 70px; width: 500px; height: 40px;">Hangman</span></div>
+        
+        <div id="display">
+            <span id="rules">Type password <br>(don't use special characters, like: ' or , )<br> or leave empty to play <br>with random password</span>
+            <input type="password" id="frame" name="fname" placeholder="password">
+            <button type="button" id="button">Start</button>
+            <span id="author">Game by &copy Wojciech Szutryk</span>
+        </div>
+        <div id="letters"></div>
+
+    </div>
+</body>
+</html>
