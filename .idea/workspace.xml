@@ -19,67 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="Files added to git">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/certificates/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/certificates/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/certificates/3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/certificates/4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/certificates/5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/certificates/6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/fixed.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/geo3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/it2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/me.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/me_gdansk.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/skills/blog.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/skills/geo-gif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/skills/hangman.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/skills/kayak.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/skills/me.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/skills/o-x.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/swiper-bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/O-X/audio/bad.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/O-X/audio/good.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/O-X/o-x.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/O-X/o-x.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/O-X/style/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/audio/bad.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/audio/good.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/hangman.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/hangman.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/0a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/10a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/1a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/2a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/3a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/4a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/5a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/6a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/7a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/8a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/img/New folder/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/hangman/style.css" afterDir="false" />
+    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="Language change link added">
+      <change afterPath="$PROJECT_DIR$/todo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_pl.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_pl.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +101,8 @@
       <workItem from="1603967725891" duration="330000" />
       <workItem from="1603994970862" duration="55000" />
       <workItem from="1603995026563" duration="14000" />
-      <workItem from="1603995070543" duration="1818000" />
+      <workItem from="1603995070543" duration="1951000" />
+      <workItem from="1604046308406" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="added education and about section">
       <created>1602432580351</created>
@@ -215,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603395583797</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Language change link added">
+      <created>1603996996030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603996996030</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +195,8 @@
     <MESSAGE value="mail added to contact, skills updated, added slider" />
     <MESSAGE value="Polish verioson of website added" />
     <MESSAGE value="Files added to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Language change link added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Language change link added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="67" key="#CLI_Interpreters" timestamp="1603287858841">
@@ -259,6 +212,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="55" key="#PHP/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1603287860489" />
+    <state x="540" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604046962725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="214" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1604046962725" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1602928736161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
