@@ -1,4 +1,5 @@
-# portfolio
-portfolio v0.0
+## portfolio
 
-Repository for myPortfolio project. It's website from which you can learn more about me.
+Link: http://www.szutryk.pl/
+
+My portfolio project repository. It's website from which you can learn more about me.
