@@ -61,12 +61,15 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 
 
 
-
+#carousel{
+  overflow-x: hidden;
+}
 
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
