@@ -60,7 +60,7 @@ body {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 
@@ -262,6 +262,7 @@ figure {
 }
 
 .swiper-container {
+  overflow: hidden;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 10px;
@@ -929,17 +930,3 @@ color: #006192;
   padding: 0;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
