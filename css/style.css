@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic');
 
 html,
@@ -181,6 +182,9 @@ figure {
 
 /* Expirience */
 
+.exp {
+  font-family: 'Montagu Slab', serif;
+}
 
 .timeline {
   position: relative;
