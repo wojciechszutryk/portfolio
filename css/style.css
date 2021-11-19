@@ -182,6 +182,10 @@ figure {
 
 /* Expirience */
 
+.experience {
+  overflow-x: hidden;
+}
+
 .exp {
   font-family: 'Montagu Slab', serif;
 }

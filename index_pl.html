@@ -26,8 +26,9 @@
 						$('.link1').click(function() { $.scrollTo($('body'), 1000); });
 						$('.link2').click(function() { $.scrollTo($('#about'), 600); });
 						$('.link3').click(function() { $.scrollTo($('#education'), 600); });
-						$('.link4').click(function() { $.scrollTo($('.skills'), 600); });
-						$('.link5').click(function() { $.scrollTo($('#contact'), 600); });
+						$('.link4').click(function() { $.scrollTo($('.experience'), 600); });
+						$('.link5').click(function() { $.scrollTo($('.skills'), 600); });
+						$('.link6').click(function() { $.scrollTo($('#contact'), 600); });
 					}
 			);
 		</script>
@@ -44,19 +45,22 @@
 					<div class="collapse navbar-collapse" id="RespNavbar">
 						<ul class="navbar-nav ml-auto mr-auto">
 							<li class="nav-item">
-								<a class="nav-link lang" href="index.html">EN</a>
+								<a class="nav-link lang" href="index_pl.html">PL</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link ab link2" href="#">Omnie</a>
+								<a class="nav-link ab link2" href="#">About</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link edu link3" href="#">Edukacja</a>
+								<a class="nav-link edu link3" href="#">Education</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link skill link4" href="#">Umiejętności</a>
+								<a class="nav-link exp link4" href="#">Doświadczenie</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link con link5" href="#">Kontact</a>
+								<a class="nav-link skill link5" href="#">Skills</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link con link6" href="#">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -210,6 +214,72 @@
 			</div>
 		</section>
 
+		
+		<!-- Experience -->
+
+		<section class="experience">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h1 class="display-4 exp">Doświadczenie</h1>
+				</div>
+			</div>
+			<div class="timeline" >
+				<div class="timeline--container timeline--left" >
+				  <div class="timeline--date">98 ...</div>
+				  <i class="timeline--icon fas fa-globe-asia""></i>
+				  <div class="timeline--content d-none d-md-block" data-aos="fade-right">
+					<h2>Geodeta</h2>
+					<p>
+						Pomoc w prowadzeniu firmy rodzinnej.
+					</p>
+				  </div>
+				  <div class="timeline--content d-md-none" data-aos="fade-left">
+					<h2>Geodeta</h2>
+					<p>
+						Pomoc w prowadzeniu firmy rodzinnej.
+					</p>
+				  </div>
+				</div>
+				<div class="timeline--container timeline--right">
+				  <div class="timeline--date">7-8 21</div>
+				  <i class="timeline--icon fab fa-wordpress-simple"></i>
+				  <div class="timeline--content" data-aos="fade-left">
+					<h2>Millenium Studio</h2>
+					<p>
+					  Front-end developer. Tworzenie, rozwijanie i poprawa stron internetowych. Kontakt z klientem.
+					</p>
+				  </div>
+				</div>
+				<div class="timeline--container timeline--left">
+				  <div class="timeline--date">9 21 ...</div>
+				  <i class="timeline--icon fas fa-graduation-cap"></i>
+				  <div class="timeline--content d-none d-md-block" data-aos="fade-right">
+					<h2>Projekt dla uczelni</h2>
+					<p>		  
+						Tworzenie aplikacji do śledzenia satelit, na zlecenie AGH. Repozytorium znajduje się na github.
+					</p>
+				  </div>
+				  <div class="timeline--content d-md-none" data-aos="fade-left">
+					<h2>University project</h2>
+					<p>		  
+						Tworzenie aplikacji do śledzenia satelit, na zlecenie AGH. Repozytorium znajduje się na github.
+					</p>
+				  </div>
+				</div>
+				<div class="timeline--container timeline--right">
+				  <div class="timeline--date">11 21 ...</div>
+				  <i class="timeline--icon fas fa-charging-station"></i>
+				  <div class="timeline--content" data-aos="fade-left">
+					<h2>Merit Poland</h2>
+					<p>
+					  Web developer. Utrzymanie i przebudowa aplikacji internetowej w Vue.js.
+					</p>
+				  </div>
+				</div>
+			  </div>
+		</section>
+
+
 		<!--- Jumbotron -->
 
 		<article>
@@ -254,8 +324,8 @@
 								<p>****<span style="color: #555;">**</span></p>
 							</div>
 							<div class="col-sm-6 col-md-4 one_skill">
-								<i class="fas fa-dollar-sign"></i>
-								<h3>jQuery</h3>
+								<i class="fab fa-tumblr-square"></i>
+								<h3>TypeScript</h3>
 								<p>***<span style="color: #555;">***</span></p>
 							</div>
 							<div class="col-sm-6 col-md-4 one_skill">
@@ -470,6 +540,17 @@
 					<div class="collumns">
 						<div class="collumn" style="width: 33.3%;">
 							<div class="head">
+								<span class="headline hl3">Valuation App</span><br>
+							</div>
+							<img class="img-fluid project-img" src="https://cdn.glitch.com/3f14db12-a1c8-462c-b3ae-ad21206e72ee%2Fbudget1.png?v=1615456374722" alt="o-x">
+							<p class="project-description">Applikacja napisana w React i TypeScript w ramach pracy inżunierskiej.</p>
+							<div class="project-info">
+								<a href="https://wojciechszutryk.github.io/Valuation-App/#/">Demo</a>
+								<a href="https://github.com/wojciechszutryk/Valuation-App" target="_blank">Kod</a>
+							</div>
+						</div>
+						<div class="collumn" style="width: 33.3%;">
+							<div class="head">
 								<span class="headline hl3">React Budget</span><br>
 							</div>
 							<img class="img-fluid project-img" src="https://cdn.glitch.com/3f14db12-a1c8-462c-b3ae-ad21206e72ee%2Fbudget1.png?v=1615456374722" alt="o-x">
@@ -510,18 +591,6 @@
 							<div class="project-info">
 								<a href="projects/O-X/o-x.html">Demo</a>
 								<a href="https://github.com/wojciechszutryk/portfolio/tree/master/projects/O-X" target="_blank">Kod</a>
-							</div>
-						</div>
-						<div class="collumn" style="width: 33.3%;">
-							<div class="head">
-								<span class="headline hl3">Hangman Game</span><br>
-							</div>
-
-							<img class="img-fluid project-img" src="https://cdn.glitch.com/3f14db12-a1c8-462c-b3ae-ad21206e72ee%2Fhangman.webp?v=1603372947599" alt="o-x">
-							<p class="project-description">Gra napisana w JS, można grać samemu, hasło zostanie wtedy wybrane losowo lub z drugim graczem, poprzez wpisanie swojego hasła.</p>
-							<div class="project-info">
-								<a href="projects/hangman/hangman.html">Demo</a>
-								<a href="https://github.com/wojciechszutryk/portfolio/tree/master/projects/hangman" target="_blank">Code</a>
 							</div>
 						</div>
 						<div class="collumn" style="width: 33.3%;">
