@@ -194,11 +194,11 @@ figure {
   content: '';
   position: absolute;
   height: 2px;
-  max-width: 300px;
   background: #960c19;
   top: 0;
-  left: calc(50% -150px);
-  right: calc(50% +150px);
+  max-width: 300px;
+  left: calc(50% - 150px);
+  right: calc(50% - 150px);
   margin-top: -1px;
 }
 
@@ -288,7 +288,7 @@ figure {
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #F6D155;
+  background: #e0e0e0;
   border: 2px solid #960c19;
   border-radius: 40px;
   text-align: center;
@@ -307,7 +307,7 @@ figure {
 
 .timeline--container .timeline--content {
   padding: 30px 90px 30px 30px;
-  background: #F6D155;
+  background: #e0e0e0;
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -332,7 +332,15 @@ figure {
 }
 
 @media (max-width: 767.98px) {
-  .timeline--timeline::after {
+  .timeline::before {
+    background: #960c19;
+    top: 0;
+    left: 90px;
+    right: calc(50% - 150px);
+    margin-top: -1px;
+  }
+
+  .timeline::after {
     left: 90px;
   }
 
@@ -1227,4 +1235,8 @@ input[type=email]:focus {
     font-size: 3.5em !important;
     padding: 0;
   }
+}
+
+.timeline--container .timeline--icon {
+  font-size: 18px !important;
 }
