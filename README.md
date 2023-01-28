@@ -1,5 +1,5 @@
 ## portfolio
 
-Link: http://www.szutryk.com.pl/
+Link: https://wojciechszutryk.github.io/portfolio/
 
 My portfolio project repository. It's website from which you can learn more about me.
