@@ -434,7 +434,7 @@ figure {
   color: white;
 }
 
-.right {
+.red-color {
   color: #a71d2a;
 }
 
@@ -451,7 +451,7 @@ figure {
   color: white;
 }
 
-.fa-globe-americas,
+/* .fa-globe-americas,
 .fa-bold,
 .fa-atlas,
 .fa-adn,
@@ -462,7 +462,7 @@ figure {
 .fa-drafting-compass,
 .fa-search-plus {
   color: #a71d2a;
-}
+} */
 
 .con {
   font-family: 'Anton', sans-serif;
@@ -894,7 +894,9 @@ input[type=email]:focus {
 .project-info a {
   border: 2px solid black;
   display: block;
-  margin: 10%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   width: 80%;
   color: black;
@@ -974,6 +976,10 @@ input[type=email]:focus {
   font-family: sans-serif;
   font-weight: 900;
   color: #d5d5d5;
+}
+
+.foot h3 {
+  font-size: 1rem;
 }
 
 
@@ -1088,7 +1094,7 @@ input[type=email]:focus {
   }
 
   .foot h3 {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
   }
 }
 
