@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wojciechszutryk.github.io/portfolio/sitemap.xml
