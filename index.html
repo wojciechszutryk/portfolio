@@ -27,7 +27,7 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -88,6 +88,7 @@
         class="carousel slide"
         data-bs-ride="carousel"
         data-bs-interval="1500"
+        data-bs-pause="false"
       >
         <div class="carousel-indicators">
           <button
@@ -1022,12 +1023,6 @@
     <script>
       AOS.init();
     </script>
-    <script src="js/scrollProgress.js"></script>
-    <script src="js/headerScroll.js"></script>
-    <script src="js/typewriter.js"></script>
-    <script src="js/eduProgress.js"></script>
-    <script src="js/certificates.js"></script>
-    <script src="js/skillList.js"></script>
-    <script src="js/skillTabPanels.js"></script>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>
