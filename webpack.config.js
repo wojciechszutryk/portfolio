@@ -46,10 +46,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./index.html",
       filename: "index.html",
+      inject: false,
     }),
     new HtmlWebpackPlugin({
       template: "./index_PL.html",
       filename: "index_PL.html",
+      inject: false,
     }),
     new CopyWebpackPlugin({
       patterns: [
