@@ -49,8 +49,8 @@ module.exports = {
       inject: false,
     }),
     new HtmlWebpackPlugin({
-      template: "./index_PL.html",
-      filename: "index_PL.html",
+      template: "./index_pl.html",
+      filename: "index_pl.html",
       inject: false,
     }),
     new CopyWebpackPlugin({
