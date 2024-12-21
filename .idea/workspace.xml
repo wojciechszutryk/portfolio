@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="Language change link added">
+      <change afterPath="$PROJECT_DIR$/todo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1igQ4Mw3x0sANLg6Zq79urnSTMH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\XAMPP\htdocs\php1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38cddd04-a3f5-4914-b457-2367115277ce" name="Default Changelist" comment="" />
+      <created>1602326562786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602326562786</updated>
+      <workItem from="1602326563834" duration="817000" />
+      <workItem from="1602327658473" duration="5338000" />
+      <workItem from="1602336169262" duration="27887000" />
+      <workItem from="1602400690376" duration="8101000" />
+      <workItem from="1602410213337" duration="18425000" />
+      <workItem from="1602439328202" duration="8774000" />
+      <workItem from="1602485349491" duration="12795000" />
+      <workItem from="1602531741038" duration="5225000" />
+      <workItem from="1602585128255" duration="1947000" />
+      <workItem from="1602591262835" duration="1288000" />
+      <workItem from="1602596133805" duration="23000" />
+      <workItem from="1602667246691" duration="2140000" />
+      <workItem from="1602670543031" duration="45000" />
+      <workItem from="1602670842469" duration="7457000" />
+      <workItem from="1602693001767" duration="5190000" />
+      <workItem from="1602779027272" duration="840000" />
+      <workItem from="1602788513723" duration="2933000" />
+      <workItem from="1602852194647" duration="3394000" />
+      <workItem from="1602867285501" duration="61000" />
+      <workItem from="1602867414280" duration="98000" />
+      <workItem from="1602878097039" duration="1745000" />
+      <workItem from="1602926626765" duration="3242000" />
+      <workItem from="1603010537376" duration="339000" />
+      <workItem from="1603011138812" duration="2351000" />
+      <workItem from="1603014361835" duration="148000" />
+      <workItem from="1603038486717" duration="3469000" />
+      <workItem from="1603119036626" duration="639000" />
+      <workItem from="1603130184777" duration="13765000" />
+      <workItem from="1603206299838" duration="323000" />
+      <workItem from="1603213856095" duration="604000" />
+      <workItem from="1603267761263" duration="2841000" />
+      <workItem from="1603270620652" duration="2407000" />
+      <workItem from="1603287204861" duration="13444000" />
+      <workItem from="1603352697857" duration="24814000" />
+      <workItem from="1603391041329" duration="4630000" />
+      <workItem from="1603967725891" duration="330000" />
+      <workItem from="1603994970862" duration="55000" />
+      <workItem from="1603995026563" duration="14000" />
+      <workItem from="1603995070543" duration="1951000" />
+      <workItem from="1604046308406" duration="674000" />
+    </task>
+    <task id="LOCAL-00001" summary="added education and about section">
+      <created>1602432580351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602432580351</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added scrollTo, font awesome to skills">
+      <created>1602499958070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602499958070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jumbotron stylized, change in socials grid, scroll bar top added, scrollbar hidden">
+      <created>1602536967564</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602536967564</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added split to skills">
+      <created>1602680210526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602680210526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed display layout at small screens, cleaned html, js  code">
+      <created>1602929870347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602929870347</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mail added to contact, skills updated, added slider">
+      <created>1603390778070</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603390778071</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Polish verioson of website added">
+      <created>1603395487505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603395487505</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Files added to git">
+      <created>1603395583797</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603395583797</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Language change link added">
+      <created>1603996996030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603996996030</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added education and about section" />
+    <MESSAGE value="added scrollTo, font awesome to skills" />
+    <MESSAGE value="jumbotron stylized, change in socials grid, scroll bar top added, scrollbar hidden" />
+    <MESSAGE value="added split to skills" />
+    <MESSAGE value="changed display layout at small screens, cleaned html, js  code" />
+    <MESSAGE value="buttons added to skills" />
+    <MESSAGE value="mail added to contact, skills updated, added slider" />
+    <MESSAGE value="Polish verioson of website added" />
+    <MESSAGE value="Files added to git" />
+    <MESSAGE value="Language change link added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Language change link added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="67" key="#CLI_Interpreters" timestamp="1603287858841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="67" key="#CLI_Interpreters/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1603287858841" />
+    <state x="395" y="91" key="#Inspections" timestamp="1603273815004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1603273815004" />
+    <state x="395" y="91" key="#Inspections/1920.0.1440.850/0.0.1536.824/3360.0.1920.1040@0.0.1536.824" timestamp="1602929667041" />
+    <state x="475" y="55" key="#PHP" timestamp="1603287860489">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="55" key="#PHP/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1603287860489" />
+    <state x="540" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604046962725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="214" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1604046962725" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1602928736161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="DiffContextDialog/1920.0.1440.850/0.0.1536.824/3360.0.1920.1040@0.0.1536.824" timestamp="1602928736161" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1603995023646">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1603995023646" />
+    <state x="643" y="310" key="Github.ShareDialog" timestamp="1602346345483">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="643" y="310" key="Github.ShareDialog/1920.0.1440.850/0.0.1536.824/3360.0.1920.1040@0.0.1536.824" timestamp="1602346345483" />
+    <state x="591" y="117" key="Github.UntrackedFilesDialog" timestamp="1602346386889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="591" y="117" key="Github.UntrackedFilesDialog/1920.0.1440.850/0.0.1536.824/3360.0.1920.1040@0.0.1536.824" timestamp="1602346386889" />
+    <state x="591" y="133" key="RollbackChangesDialog" timestamp="1602928737539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="591" y="133" key="RollbackChangesDialog/1920.0.1440.850/0.0.1536.824/3360.0.1920.1040@0.0.1536.824" timestamp="1602928737539" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1603287653939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1603287653939" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603395585064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1603395585064" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603995224198">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1280.920/0.0.1536.824@0.0.1536.824" timestamp="1603995224198" />
+    <state x="531" y="202" key="git4idea.ui.GitUnstashDialog" timestamp="1602928663798">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="531" y="202" key="git4idea.ui.GitUnstashDialog/1920.0.1440.850/0.0.1536.824/3360.0.1920.1040@0.0.1536.824" timestamp="1602928663798" />
+  </component>
+</project>
