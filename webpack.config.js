@@ -61,6 +61,18 @@ module.exports = {
           from: "./js/swiper-bundle.min.js",
           to: "js/swiper-bundle.min.js",
         },
+        {
+          from: "./site.webmanifest",
+          to: "site.webmanifest",
+        },
+        {
+          from: "./robots.txt",
+          to: "robots.txt",
+        },
+        {
+          from: "./sitemap.xml",
+          to: "sitemap.xml",
+        },
       ],
     }),
   ],
