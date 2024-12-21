@@ -9,10 +9,11 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 module.exports = {
   mode: "production",
   entry: {
+    index: "./js/index.js",
     styles: "./css/style.css",
   },
   output: {
-    filename: "js/index.js",
+    filename: "js/[name].js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
