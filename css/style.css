@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic");
 
 html,
 body {
@@ -31,7 +31,7 @@ body {
 }
 
 .logo {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-weight: 900;
   letter-spacing: 4px;
 }
@@ -47,7 +47,11 @@ body {
 }
 
 .lang {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
+}
+
+.typewrite > .wrap {
+  border-right: 0.08em solid #fff;
 }
 
 .progress-container {
@@ -68,9 +72,6 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
-
-
-
 
 #carousel {
   overflow-x: hidden;
@@ -101,7 +102,7 @@ figure {
 }
 
 #fixed {
-  background-image: url('../img/fixed.webp');
+  background-image: url("../img/fixed.webp");
   position: fixed;
   display: block;
   top: 0;
@@ -119,26 +120,14 @@ figure {
   padding: 1rem;
 }
 
-
-
-
-
-
-
 .welcomesection hr {
   width: 90%;
   border: 1px solid #a71d2a;
 }
 
 .ab {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
-
-
-
-
-
-
 
 .education {
   margin-bottom: 30px;
@@ -151,7 +140,7 @@ figure {
 }
 
 .edu {
-  font-family: 'Graduate', cursive;
+  font-family: "Graduate", cursive;
 }
 
 .myProgress {
@@ -179,7 +168,6 @@ figure {
   transform-style: preserve-3d;
 }
 
-
 /* Expirience */
 
 .experience {
@@ -187,7 +175,7 @@ figure {
 }
 
 .exp {
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
 }
 
 .timeline {
@@ -199,19 +187,18 @@ figure {
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   background: #960c19;
   top: 0;
-  max-width: 300px;
   left: calc(50% - 150px);
   right: calc(50% - 150px);
   margin-top: -1px;
 }
 
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 2px;
   background: #960c19;
@@ -237,7 +224,7 @@ figure {
 }
 
 .timeline--container::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 16px;
   height: 16px;
@@ -254,7 +241,7 @@ figure {
 }
 
 .timeline--container::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 50px;
   height: 2px;
@@ -270,23 +257,23 @@ figure {
 
 .timeline--container .timeline--date {
   position: absolute;
-  display: inline-block;
-  top: calc(50% - 8px);
-  text-align: center;
+  width: max-content;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
   font-size: 14px;
   font-weight: bold;
   color: #960c19;
   text-transform: uppercase;
   letter-spacing: 1px;
-  z-index: 1;
 }
 
 .timeline--container.timeline--left .timeline--date {
-  right: -75px;
+  left: calc(100% + 15px);
 }
 
 .timeline--container.timeline--right .timeline--date {
-  left: -75px;
+  right: calc(100% + 15px);
 }
 
 .timeline--container .timeline--icon {
@@ -342,10 +329,8 @@ figure {
 @media (max-width: 767.98px) {
   .timeline::before {
     background: #960c19;
-    top: 0;
     left: 90px;
-    right: calc(50% - 150px);
-    margin-top: -1px;
+    right: 90px;
   }
 
   .timeline::after {
@@ -355,7 +340,7 @@ figure {
   .timeline--container {
     width: 100%;
     padding-left: 120px;
-    padding-right: 30px;
+    padding-right: 0px;
   }
 
   .timeline--container.timeline--right {
@@ -390,15 +375,17 @@ figure {
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
   }
+
+  .timeline--container .timeline--date {
+    width: min-content;
+    text-align: center;
+  }
 }
 
 /* Expirience */
 
-
-
-
 .skill {
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   padding: 0.5em;
 }
 
@@ -406,7 +393,7 @@ figure {
   padding: 0;
 }
 
-.one_skill h3 {
+.one_skill h4 {
   font-size: 1.5em !important;
   margin-top: 0.5em;
   margin-bottom: 0;
@@ -427,7 +414,7 @@ figure {
 }
 
 .others .collapse {
-  transition: .3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
 }
 
 .left {
@@ -451,25 +438,12 @@ figure {
   color: white;
 }
 
-/* .fa-globe-americas,
-.fa-bold,
-.fa-atlas,
-.fa-adn,
-.fa-pencil-alt,
-.fa-cuttlefish,
-.fa-ruler-combined,
-.fa-map,
-.fa-drafting-compass,
-.fa-search-plus {
-  color: #a71d2a;
-} */
-
 .con {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 .name {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   z-index: 1000;
   top: 50%;
   transform: translateY(-50%);
@@ -488,7 +462,7 @@ figure {
   mix-blend-mode: screen;
 }
 
-.name h1 {
+.name span {
   font-size: 50px;
 }
 
@@ -501,7 +475,7 @@ figure {
 }
 
 .about {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   color: #a71d2a;
   font-size: 50px;
 }
@@ -521,11 +495,11 @@ figure {
 }
 
 .jumbotron {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   margin-bottom: 0;
 }
 
-.skills h1 {
+.skills h2 {
   padding: 1em;
   transition: 1s;
 }
@@ -553,7 +527,7 @@ figure {
 
 .split.left:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background: rgba(100, 0, 0, 0.7);
@@ -568,10 +542,20 @@ figure {
 
 .split.right:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background: rgba(200, 200, 200, 0.7);
+}
+
+.split .split-content {
+  position: relative;
+  z-index: 2;
+}
+
+.split .split-content .one_skill {
+  transform: scale(1);
+  transition: 1.2s;
 }
 
 .split.left,
@@ -583,47 +567,32 @@ figure {
   transition: 1000ms all ease-in-out;
 }
 
-.hover-left .left {
-  width: 75%;
-}
-
-.hover-left .right {
-  width: 25%;
-}
-
-.hover-left .right h1 {
-  font-size: 0px;
-  margin-bottom: 56px;
-  transition: 1s;
-}
-
-.hover-left .right:before {
-  z-index: 2;
-}
-
+.hover-left .left,
 .hover-right .right {
   width: 75%;
 }
 
+.hover-left .right,
 .hover-right .left {
   width: 25%;
 }
 
-.hover-right .left h1 {
-  font-size: 0px;
-  margin-bottom: 56px;
-  transition: 1s;
-}
-
-.hover-right .left:before {
-  z-index: 2;
+.hover-left .right .one_skill,
+.hover-right .left .one_skill {
+  opacity: 0.6;
+  transform: scale(0.7);
 }
 
 .toggled {
   background-color: #a71d2a;
 }
 
-.wrapper a {
+.skill-panel {
+  margin: 0 5%;
+  max-width: 1200px;
+}
+
+.wrapper > * {
   display: block;
   height: 40px;
   line-height: 40px;
@@ -635,15 +604,15 @@ figure {
   text-align: center;
   position: relative;
   cursor: pointer;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-.wrapper a span {
+.wrapper > * span {
   position: relative;
   z-index: 2;
 }
 
-.wrapper a:after {
+.wrapper > *:after {
   position: absolute;
   content: "";
   top: 0;
@@ -651,26 +620,24 @@ figure {
   width: 0;
   height: 100%;
   background: #a71d2a;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-.wrapper a:hover:after {
+.wrapper > *:hover:after {
   width: 100%;
 }
 
-
-
 textarea:focus,
 textarea.form-control:focus,
-input[type=text]:focus,
-input[type=email]:focus {
+input[type="text"]:focus,
+input[type="email"]:focus {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   outline: none !important;
   border: 1px solid black !important;
   background-color: #eee8e8 !important;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 @keyframes short-press {
@@ -679,7 +646,7 @@ input[type=email]:focus {
   }
 
   50% {
-    transform: scale(.9);
+    transform: scale(0.9);
   }
 
   100% {
@@ -692,61 +659,24 @@ input[type=email]:focus {
 }
 
 .submit-button {
-  display: block;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  text-transform: uppercase;
-  font-size: .75em;
+  font-size: 0.75em;
   letter-spacing: 1px;
   height: 38px;
   width: 120px;
   line-height: 38px;
   overflow: hidden;
-  background: #513f3f;
-  border-radius: 3px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   border: 0;
   cursor: pointer;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.submit-button:hover,
-.submit-button:focus {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+.submit-button:hover {
+  color: #fff;
 }
-
-.submit-button.animated {
-  -webkit-animation: 0.75s short-press cubic-bezier(0.77, 0, 0.175, 1) forwards;
-  animation: 0.75s short-press cubic-bezier(0.77, 0, 0.175, 1) forwards;
-}
-
-.submit-button>span {
-  display: block;
-  color: white;
-  text-align: center;
-}
-
-.submit-button>span.pre-state-msg {
-  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
-  -webkit-transition-delay: .75s;
-  transition-delay: .75s;
-}
-
-.submit-button.state-1 .pre-state-msg {
-  margin-top: -38px;
-}
-
-.submit-button.state-2 .pre-state-msg {
-  margin-top: -76px;
-}
-
-
-
-
-
-
 
 #panel1,
 #panel2,
@@ -773,8 +703,8 @@ input[type=email]:focus {
   padding-bottom: 0;
 }
 
-.head h1 {
-  font-family: 'Playfair Display';
+.head h3 {
+  font-family: "Playfair Display";
   font-weight: 900;
   font-size: 80px;
   text-transform: uppercase;
@@ -799,15 +729,14 @@ input[type=email]:focus {
   border-bottom: 2px solid #2f2f2f;
   border-top: 2px solid #2f2f2f;
   padding: 12px 0 12px 0;
-
 }
 
 .content {
   font-size: 0;
   line-height: 0;
-  word-spacing: -.31em;
+  word-spacing: -0.31em;
   display: inline-block;
-  margin: 30px 2% 0 2%;
+  margin: 30px 2%;
 }
 
 .collumn {
@@ -817,14 +746,13 @@ input[type=email]:focus {
   display: inline-block;
   padding: 0 1% 0 1%;
   vertical-align: top;
-  margin-bottom: 50px;
-  transition: all .7s;
+  transition: all 0.7s;
 }
 
 .collumn .headline {
   text-align: center;
   line-height: normal;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   display: block;
   margin: 0 auto;
 }
@@ -845,20 +773,17 @@ input[type=email]:focus {
   width: 100%;
 }
 
-/*________________________________________________________________________________________________________________________________*/
 /*MEDIAQUERIES*/
 @media only all and (max-width: 1200px) {
   .collumn {
     width: 31%;
   }
-
 }
 
 @media only all and (max-width: 900px) {
   .collumn {
     width: 47%;
   }
-
 }
 
 @media only all and (max-width: 600px) {
@@ -866,7 +791,7 @@ input[type=email]:focus {
     width: 100% !important;
   }
 
-  .collumn+.collumn {
+  .collumn + .collumn {
     padding-top: 20px;
     border-left: none;
     border-top: 1px solid #2f2f2f;
@@ -881,7 +806,7 @@ input[type=email]:focus {
 .project-img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  transition: all .5s;
+  transition: all 0.5s;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -910,27 +835,8 @@ input[type=email]:focus {
   border: 2px solid #333;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .me {
-  border: 3px solid #721C24;
+  border: 3px solid #721c24;
 }
 
 .socilmedia a {
@@ -939,7 +845,7 @@ input[type=email]:focus {
 }
 
 .fa-facebook {
-  color: #3C5898;
+  color: #3c5898;
 }
 
 .fa-instagram {
@@ -947,11 +853,11 @@ input[type=email]:focus {
 }
 
 .fa-github-square {
-  color: #211F1F;
+  color: #211f1f;
 }
 
 .fa-twitter {
-  color: #36D8FF;
+  color: #36d8ff;
 }
 
 .fa-linkedin-in {
@@ -982,7 +888,6 @@ input[type=email]:focus {
   font-size: 1rem;
 }
 
-
 #it p {
   background: white;
   border: 1px solid #c6c6c6;
@@ -991,11 +896,8 @@ input[type=email]:focus {
   display: none;
 }
 
-
-
-
 @media (max-width: 576px) {
-  .name h1 {
+  .name span {
     font-size: 30px !important;
   }
 
@@ -1043,26 +945,11 @@ input[type=email]:focus {
     padding: 0;
   }
 
-  .hover-left .right h1 {
-    font-size: 0rem;
-    margin-bottom: 0rem;
-  }
-
-  .hover-right .left h1 {
-    font-size: 0rem;
-    margin-bottom: 0rem;
-  }
-
-  .split h1 {
-    font-size: 0rem;
-    margin: 0;
-  }
-
   .container-custom {
-    height: 850px;
+    height: 1000px;
   }
 
-  .one_skill h3 {
+  .one_skill h4 {
     font-size: 1em !important;
     margin-top: 0.5em;
     margin-bottom: 0;
@@ -1073,7 +960,7 @@ input[type=email]:focus {
     margin-bottom: 0;
   }
 
-  .head h1 {
+  .head h3 {
     font-size: 20px;
     line-height: 22px;
   }
@@ -1089,7 +976,7 @@ input[type=email]:focus {
     font-size: 40px;
   }
 
-  #contact h1 {
+  #contact h2 {
     font-size: 2.5rem;
   }
 
@@ -1098,9 +985,8 @@ input[type=email]:focus {
   }
 }
 
-
 @media (min-width: 576px) {
-  .name h1 {
+  .name span {
     font-size: 60px !important;
   }
 
@@ -1128,7 +1014,7 @@ input[type=email]:focus {
     padding: 0;
   }
 
-  .split h1 {
+  .split h3 {
     font-size: 2rem;
   }
 
@@ -1136,7 +1022,7 @@ input[type=email]:focus {
     height: 600px;
   }
 
-  .one_skill h3 {
+  .one_skill h4 {
     font-size: 1em !important;
   }
 
@@ -1145,13 +1031,12 @@ input[type=email]:focus {
     margin-bottom: 0;
   }
 
-  .head h1 {
+  .head h3 {
     font-size: 40px;
     line-height: 45px;
   }
 
   .project-description {
-    height: 120px;
     text-align: center;
   }
 
@@ -1163,10 +1048,13 @@ input[type=email]:focus {
   }
 }
 
-
 @media (min-width: 768px) {
-  .name h1 {
+  .name span {
     font-size: 80px !important;
+  }
+
+  .progress-container {
+    margin-right: 10px;
   }
 
   .socilmedia a {
@@ -1186,7 +1074,7 @@ input[type=email]:focus {
     height: 550px;
   }
 
-  .one_skill h3 {
+  .one_skill h4 {
     font-size: 1.5em !important;
   }
 
@@ -1205,16 +1093,14 @@ input[type=email]:focus {
   .far {
     font-size: 64px !important;
   }
-
 }
-
 
 @media (min-width: 992px) {
   img {
     max-height: 650px;
   }
 
-  .name h1 {
+  .name span {
     font-size: 100px !important;
   }
 
@@ -1228,10 +1114,8 @@ input[type=email]:focus {
   }
 }
 
-
 @media (min-width: 1200px) {
-
-  .name h1 {
+  .name span {
     font-size: 150px;
   }
 
@@ -1241,13 +1125,18 @@ input[type=email]:focus {
   .fa-twitter,
   .fa-linkedin-in {
     font-size: 1.7em !important;
-    padding: .1em;
+    padding: 0.1em;
   }
 
   .fa-at,
   .fa-mobile-alt {
     font-size: 3.5em !important;
     padding: 0;
+  }
+
+  .skill-panel {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
 
